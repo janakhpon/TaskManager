@@ -1,6 +1,6 @@
 <?php 
 
-$con = mysqli_connect("localhost", "root", "janakhpon", "mydb");
+$con = mysqli_connect("localhost:3306", "root", "janakhpon", "mydb");
 
 function row_count($result){
     return mysqli_num_rows($result);
